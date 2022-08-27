@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>calculator</title>
+</head>
+<style>
+    .container{
+        text-align: center;
+        margin-top: 23px;
+    }
+    table{
+        margin: auto;
+    }
+    input{
+        border-radius: 10px;
+        width: 400px;
+        height: 45px;
+        padding: 5px;
+        border: 3px solid black;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    button{
+        border-radius: 20px;
+        margin: 6px;
+        font-size: 30px;
+        height: 70px;
+        width: 90px;
+        background: black;
+        color: white;
+    }
+    button:hover{
+        border: 2px solid white;
+    }
+    .calculator{
+        border: 2px solid black;
+        display: inline-block;
+        padding: 20px;
+        background-color: gray;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px gray;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>CALCULATOR</h1>
+        <Div class="calculator">
+            <input type="text" id="screen" name="screen">
+            <table>
+                <tr>
+                    <td><button>(</button></td>
+                    <td><button>)</button></td>
+                    <td><button>C</button></td>
+                    <td><button>%</button></td>
+                </tr>
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button>x</button></td>
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button>-</button></td>
+                </tr>
+                <tr>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td><button>+</button></td>
+                </tr>
+                <tr>
+                    <td><button>0</button></td>
+                    <td><button>.</button></td>
+                    <td><button>/</button></td>
+                    <td><button>=</button></td>
+                </tr>
+            </table>
+        </Div>
+    </div>
+</body>
+<script src="caculator.js"></script>
+</html>
